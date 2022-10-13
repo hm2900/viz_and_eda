@@ -238,7 +238,7 @@ weather_df %>%
 Always put on the top of the document.
 
 ``` r
-lobrarry(tidyverse)
+library(tidyverse)
 
 knitr::opts_chunk$set(
   fig.width = 6,
@@ -249,11 +249,11 @@ knitr::opts_chunk$set(
 theme_set(theme_minimal() + theme(legend.position = "bottom"))
 
 options(
-  ggplot2.continuous.color = "viridis",
+  ggplot2.continuous.colour = "viridis",
   ggplot2.continuous.fill = "viridis"
 )
 
-scale_color_discrete = scale_color_viridis_d
+scale_colour_discrete = scale_color_viridis_d
 scale_fill_discrete = scale_fill_viridis_d
 ```
 
